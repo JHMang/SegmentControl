@@ -124,7 +124,8 @@
 
 #pragma mark - action
 - (void) segmentSelectedAction:(UISegmentedControl *) segmentedController {
-    [self.scrollView setContentOffset:CGPointMake(-([UIScreen mainScreen].bounds.size.width/self.segmentedControl.numberOfSegments)*self.segmentedControl.selectedSegmentIndex, 0) animated:YES];
+//    [self.scrollView setContentOffset:CGPointMake(-([UIScreen mainScreen].bounds.size.width/self.segmentedControl.numberOfSegments)*self.segmentedControl.selectedSegmentIndex, 0) animated:YES];
+    [self.collectionView setContentOffset:CGPointMake([UIScreen mainScreen].bounds.size.width*self.segmentedControl.selectedSegmentIndex, 0) animated:NO];
 }
 
 @end

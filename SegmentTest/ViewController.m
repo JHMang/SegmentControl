@@ -115,7 +115,11 @@
 
 // 已经滑动完成
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
-    self.segmentedControl.selectedSegmentIndex = -self.scrollView.contentOffset.x/[UIScreen mainScreen].bounds.size.width*self.segmentedControl.numberOfSegments;
+    
+    //    self.segmentedControl.selectedSegmentIndex = -self.scrollView.contentOffset.x/[UIScreen mainScreen].bounds.size.width*self.segmentedControl.numberOfSegments;
+    
+    ///  解决6sp 选项不正确问题    精确度造成相除结果不正确
+    self.segmentedControl.selectedSegmentIndex = -self.scrollView.contentOffset.x/([UIScreen mainScreen].bounds.size.width/self.segmentedControl.numberOfSegments-1);
 }
 
 #pragma mark - action

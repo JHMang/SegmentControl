@@ -31,6 +31,7 @@
         NSDictionary* unselectedTextAttributes = @{NSFontAttributeName:[UIFont systemFontOfSize:12],
                                                    NSForegroundColorAttributeName: ColorI(0x989898)};
         [_segmentedControl setTitleTextAttributes:unselectedTextAttributes forState:UIControlStateNormal];
+        
         NSDictionary* unselectedTextAttributes2 = @{NSFontAttributeName:[UIFont boldSystemFontOfSize:16],
                                                    NSForegroundColorAttributeName: ColorI(0x1BB28B)};
         [_segmentedControl setTitleTextAttributes:unselectedTextAttributes2 forState:UIControlStateSelected];

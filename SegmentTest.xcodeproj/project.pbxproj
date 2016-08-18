@@ -57,6 +57,7 @@
 		31BFD73C1D65588800449E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31BFD7481D6560C500449E31 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
 		31BFD7491D6560C500449E31 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		31BFD74F1D65769F00449E31 /* Untitled.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Untitled.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +108,7 @@
 		31BFD7111D65588700449E31 /* SegmentTest */ = {
 			isa = PBXGroup;
 			children = (
+				31BFD74F1D65769F00449E31 /* Untitled.mp4 */,
 				31BFD7151D65588700449E31 /* AppDelegate.h */,
 				31BFD7161D65588700449E31 /* AppDelegate.m */,
 				31BFD7181D65588700449E31 /* ViewController.h */,

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31B08B051D66A92900B2D63C /* segmentController.gif in Resources */ = {isa = PBXBuildFile; fileRef = 31B08B041D66A92900B2D63C /* segmentController.gif */; };
 		31BFD7141D65588700449E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BFD7131D65588700449E31 /* main.m */; };
 		31BFD7171D65588700449E31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BFD7161D65588700449E31 /* AppDelegate.m */; };
 		31BFD71A1D65588700449E31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BFD7191D65588700449E31 /* ViewController.m */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31B08B041D66A92900B2D63C /* segmentController.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = segmentController.gif; sourceTree = "<group>"; };
 		31BFD70F1D65588700449E31 /* SegmentTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31BFD7131D65588700449E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31BFD7151D65588700449E31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		31BFD7111D65588700449E31 /* SegmentTest */ = {
 			isa = PBXGroup;
 			children = (
+				31B08B041D66A92900B2D63C /* segmentController.gif */,
 				31BFD74F1D65769F00449E31 /* Untitled.mp4 */,
 				31BFD7151D65588700449E31 /* AppDelegate.h */,
 				31BFD7161D65588700449E31 /* AppDelegate.m */,
@@ -254,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B08B051D66A92900B2D63C /* segmentController.gif in Resources */,
 				31BFD7251D65588700449E31 /* LaunchScreen.storyboard in Resources */,
 				31BFD7221D65588700449E31 /* Assets.xcassets in Resources */,
 				31BFD71D1D65588700449E31 /* Main.storyboard in Resources */,
@@ -512,6 +516,7 @@
 				31BFD7411D65588800449E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31BFD7421D65588800449E31 /* Build configuration list for PBXNativeTarget "SegmentTestTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +525,7 @@
 				31BFD7441D65588800449E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31BFD7451D65588800449E31 /* Build configuration list for PBXNativeTarget "SegmentTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +534,7 @@
 				31BFD7471D65588800449E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
